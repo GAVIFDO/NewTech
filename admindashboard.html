@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Tech | Admin Panel</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bootstrap.css"/>
+</head>
+<body  style=" background-color: #757575; background-image: none;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+        <a href="products.html">News</a>
+        <a href="cart.html"  class="righticons"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <a href="watchlist.html"  class="righticons">Watchlist</a>
+        <a href="profile.html" class="righticons"><i class="fa fa-user" aria-hidden="true"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <h1 class="adminwelcome" >Welcome to the Admin Dashboard</h1>
+    <button class="btn btn-danger" style="margin-left: 20px;"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out</button>
+
+    <div class="formadmin">
+        <div class="addnews">
+            <h2>Add news</h2><br/>
+            <label for="title">Title :</label>
+            <input type="text" name="title" placeholder="title here"><br/><br/>
+            <label for="discription">discription</label>
+            <input type="text" name="discription" placeholder="discription here"><br/><br/>
+            <input type="file" id="myFile" name="filename"><br/><br/>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+        <div class="addnews">
+            <h2>Add Product</h2><br/>
+            <label for="title">Title :</label>
+            <input type="text" name="title" placeholder="title here"><br/><br/>
+            <label for="discription">discription</label>
+            <input type="text" name="discription" placeholder="discription here"><br/><br/>
+            <input type="file" id="myFile" name="filename"><br/><br/>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+        <div class="addnews">
+            <h2>Edit Product</h2><br/>
+            <p style="color: rgb(128, 215, 255);">keep Clear to not Change</p>
+            <label for="title">Name of Project :</label>
+            <input type="text" name="title" placeholder="title here"><br/><br/>
+            <label for="discription">Changing Price :</label>
+            <input type="text" name="discription" placeholder="Change here"><br/><br/>
+            <label for="filename">Change Image : </label><input type="file" id="myFile" name="filename"><br/><br/>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

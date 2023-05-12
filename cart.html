@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Tech | Cart</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bootstrap.css"/>
+</head>
+<body  style=" background-color: #757575; background-image: none;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="products.html">News</a>
+        <a href="cart.html"  class="righticons active"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <a href="watchlist.html"  class="righticons">Watchlist</a>
+        <a href="profile.html" class="righticons"><i class="fa fa-user" aria-hidden="true"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h1 style="color: #92caff; margin: 20px;">Cart And Purchase History</h1>
+    <div class="cart">
+        <div class="itemsname">
+            <p><b>Items</b></p>
+            <p>Asus Casing 1234</p>
+            <p>Asus Keyboard 1234</p>
+            <p>asus 1054 super TUF gaming</p>
+            <p><b>Total</b></p>
+        </div>
+
+        <div class="itemPrices">
+            <p><b>Price(Rs)</b></p>
+            <p>32,500</p>
+            <p>9,500</p>
+            <p>95,500</p>
+            <p><b>137,500</b></p>
+        </div>
+<br><br><br><br> <br><br><br><br><br>
+        <button style="float: left; margin: 2px;" class="btn btn-danger"><i class="fa fa-pencil"></i> Edit</button>
+        <button  style="float: left; margin: 2px;" class="btn btn-secondary"><i class="fa fa-undo"></i> Reset</button>
+        <button  style="float: left; margin: 2px;"  class="btn btn-success"> Buy</button>
+
+    </div>
+
+    <div class="history">
+        <div class="historyname">
+            <p><b>Order No</b></p>
+            <p>105678</p>
+            <p>145653</p>
+            <p>423649</p>
+            <p>533674</p>
+        </div>
+        <div class="historyname2">
+            <p><b>Date</b></p>
+            <p>2023.02.11</p>
+            <p>2023.01.03</p>
+            <p>2022.12.19</p>
+            <p>2022.09.30</p>
+        </div>
+
+        <div class="historyname2">
+            <p><b>Status</b></p>
+            <p><i style="color: rgb(255, 51, 0);" class="fa fa-plane"></i></p>
+            <p><i style="color: rgb(0, 255, 55);" class="fa fa-plane"></i></p>
+            <p><i style="color: rgb(0, 255, 55)" class="fa fa-plane"></i></p>
+            <p><i style="color: rgb(0, 255, 55)" class="fa fa-plane"></i></p>
+        </div>
+
+
+        <div class="historyAmmount">
+            <p><b>Ammount(Rs)</b></p>
+            <p>155,000</p>
+            <p>92,500</p>
+            <p>132,500</p>
+            <p>256,500</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div style="display: inline-block; float: left;"> 
+            <ul class="navfoot">
+            <br>
+            <li class="footerlinks"><a  style="text-decoration: underline; color: white;" href="index.html">Home</a></li>
+            <li class="footerlinks"><a  style="text-decoration: underline; color: white;" href="pruducts.html">Products</a></li>
+            <li class="footerlinks"><a  style="text-decoration: underline; color: white;" href="news.html.html">News</a></li>
+            <li class="footerlinks"><a  style="text-decoration: underline; color: white;" href="watchlist.html">WatchList</a></li>
+            <li class="footerlinks"><a  style="text-decoration: underline; color: white;" href="cart.html">Cart</a></li><br>
+            <button id="buttonadmin" class="btn btn-danger"><a style="text-decoration: none; color: white;" href="adminsignin.html"><i class="fa fa-sign-in"></i> Admin Login</a> </button>     <button style="text-decoration: none; color: white;" class="btn btn-secondary"><a style="text-decoration: none; color: white;" href="admindashboard.html"><i class="fa fa-user"></i> Admin Dashboard</a> </button>
+        </ul>
+    </div>
+
+        <div class="newsletter" style="display: inline-block; margin-top: 30px; margin-right: 30px; float: right;">
+            <h5 style="color: white;">Subscribe for News letter</h5><br>
+            <input type="email" placeholder="Email Here"><br><br>
+            <button id="hidebutton" class="btn btn-success"><i class="fa fa-bell"></i> Subscribe</button><br><br>
+            <p class="hidetext" style="color: rgb(175, 175, 175); margin-bottom: 0px;">&copy;Copyright Reserved Gaviru Fernando</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
